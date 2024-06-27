@@ -23,7 +23,7 @@ candidateName = ("Karima");
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-let question = "Who was the first American woman in space? " + "candiateAnswer";
+   let info = input.question("Who was the first American woman in space? ");
 
 
 }
@@ -62,4 +62,4 @@ module.exports = {
   candidateAnswers: candidateAnswers,
   gradeQuiz: gradeQuiz,
   runProgram: runProgram
-}
+};
